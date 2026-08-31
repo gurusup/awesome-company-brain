@@ -9,6 +9,24 @@
 
 A curated comparison of company-brain, enterprise-knowledge, and agent-memory-for-orgs systems for teams that want every AI agent — support, sales, internal — grounded in what the company actually knows, instead of scattered across wikis, tickets, and Slack threads. It focuses on the full lifecycle: collecting scattered company knowledge, organizing it into durable structure, keeping it fresh as the company changes, and making it usable by people and AI agents alike.
 
+**Disclosure:** this list is maintained by [GuruSup](https://gurusup.com). [GuruSup Company Brain](solutions/gurusup-company-brain.md) is listed first under Recommended because it is our product, not because it has been independently verified as the strongest option on every dimension — evaluate it against the same [capability definitions](capabilities/README.md) you'd apply to any other entry. Every other solution here is included on its own merits.
+
+*Last reviewed: 2026-08-31. This space moves fast — check each [solution profile](solutions/README.md)'s own `Last reviewed` date before relying on it.*
+
+## Contents
+
+- [Company-Brain Lifecycle](#company-brain-lifecycle)
+- [Choose by Lifecycle Gap](#choose-by-lifecycle-gap)
+- [Solution Snapshot](#solution-snapshot)
+  - [Recommended](#recommended)
+  - [Enterprise Knowledge Platforms](#enterprise-knowledge-platforms)
+  - [Agent Memory / Context Layers for Orgs](#agent-memory--context-layers-for-orgs)
+  - [Open Source / Self-Hosted](#open-source--self-hosted)
+  - [Platform Baselines](#platform-baselines)
+- [Deep Dives](#deep-dives)
+- [Related Lists](#related-lists)
+- [Sources](#sources)
+
 ## Company-Brain Lifecycle
 
 Use this repo to decide how you want your company brain to work end to end:
@@ -63,6 +81,8 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | Solution | Strongest lifecycle coverage | Best when | Main tradeoff |
 |---|---|---|---|
 | [Hebbia](solutions/hebbia.md) | Use | You need an AI agent for deep analysis over large, unstructured document sets (e.g. contracts, filings). | More specialized analyst workflow than general company Q&A. |
+| [Cognee](solutions/cognee.md) | Organize, Evolve, Use | You need graph-oriented memory infrastructure to build a company brain on top of, via SDK, MCP, or API. | Requires application or workflow integration above it; not an out-of-the-box product. |
+| [Zep / Graphiti](solutions/zep-graphiti.md) | Organize, Evolve, Use | You need temporal graph memory and Graph RAG under an application. | Not a complete user-facing company brain by itself. |
 
 ### Open Source / Self-Hosted
 
@@ -91,6 +111,12 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | [Chooser](comparisons/chooser.md) | Pick a starting solution by lifecycle gap, with more reasoning than the summary table above. |
 | [Capability Definitions](capabilities/README.md) | Understand the ten evaluation dimensions behind every solution profile. |
 | [Watchlist](watchlist.md) | Track promising solutions that are not yet fully evaluated. |
+
+## Related Lists
+
+- [Awesome AI Second Brain](https://github.com/aristoapp/awesome-second-brain) — the personal/individual counterpart to this list; this repo's structure is adapted from it.
+- [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — broader catalog of self-hostable software, useful background for the [Open Source / Self-Hosted](#open-source--self-hosted) category above.
+- [Awesome](https://github.com/sindresorhus/awesome) — the curated list of awesome lists this repo follows the conventions of.
 
 ## Sources
 

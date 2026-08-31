@@ -16,7 +16,7 @@ If the real risk is stale answers (old pricing, deprecated features, outdated po
 
 ## Use company knowledge inside AI agents and workflows
 
-If the goal is grounding AI agents — support bots, internal copilots, sales assistants — rather than just giving humans a search bar, prioritize agent activation surfaces (MCP, API, SDK, plugins): [GuruSup Company Brain](../solutions/gurusup-company-brain.md), [Onyx](../solutions/onyx.md), [AnythingLLM](../solutions/anythingllm.md), [RAGFlow](../solutions/ragflow.md), [Hebbia](../solutions/hebbia.md), and [Glean](../solutions/glean.md) are built with agent/API access as a first-class path, not an afterthought.
+If the goal is grounding AI agents — support bots, internal copilots, sales assistants — rather than just giving humans a search bar, prioritize agent activation surfaces (MCP, API, SDK, plugins): [GuruSup Company Brain](../solutions/gurusup-company-brain.md), [Onyx](../solutions/onyx.md), [AnythingLLM](../solutions/anythingllm.md), [RAGFlow](../solutions/ragflow.md), [Hebbia](../solutions/hebbia.md), [Cognee](../solutions/cognee.md), [Zep / Graphiti](../solutions/zep-graphiti.md), and [Glean](../solutions/glean.md) are built with agent/API access as a first-class path, not an afterthought.
 
 ## Govern, inspect, correct, or control company knowledge
 

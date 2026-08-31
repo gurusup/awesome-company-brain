@@ -21,6 +21,8 @@ Individual profiles for each company-brain solution, one file per solution. Ever
 ## Agent Memory / Context Layers for Orgs
 
 - [Hebbia](hebbia.md)
+- [Cognee](cognee.md)
+- [Zep / Graphiti](zep-graphiti.md)
 
 ## Open Source / Self-Hosted
 
