@@ -30,8 +30,9 @@ Start with the lifecycle stage that is blocking your team most. If you want an a
 | Collect scattered company knowledge | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Glean](solutions/glean.md), [Microsoft 365 Copilot](solutions/microsoft-365-copilot.md), [Google Workspace / NotebookLM Enterprise](solutions/google-notebooklm-enterprise.md), or [Amazon Q Business](solutions/amazon-q-business.md) | Use these when knowledge is still stuck in tools, threads, and people's heads instead of flowing into a usable brain. |
 | Organize raw content into durable knowledge | [Guru](solutions/guru.md), [Confluence](solutions/confluence.md), [Notion AI](solutions/notion-ai.md), [Slab](solutions/slab.md), [GitBook](solutions/gitbook.md), [Tettra](solutions/tettra.md), [Document360](solutions/document360.md), or [Slite](solutions/slite.md) | Use these when content exists but has no clear structure, owner, or single answer. |
 | Evolve knowledge as the company changes | [Guru](solutions/guru.md), [Confluence](solutions/confluence.md), [GuruSup Company Brain](solutions/gurusup-company-brain.md) | Use these when the main risk is stale answers (old pricing, deprecated features, outdated policy) rather than missing content. |
-| Use company knowledge inside AI agents and workflows | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Onyx](solutions/onyx.md), [Hebbia](solutions/hebbia.md), or [Glean](solutions/glean.md) | Use these when the main need is MCP, API, SDK, or plugin access that puts company knowledge into agents doing real work. |
+| Use company knowledge inside AI agents and workflows | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Onyx](solutions/onyx.md), [AnythingLLM](solutions/anythingllm.md), [RAGFlow](solutions/ragflow.md), [Hebbia](solutions/hebbia.md), or [Glean](solutions/glean.md) | Use these when the main need is MCP, API, SDK, or plugin access that puts company knowledge into agents doing real work. |
 | Govern, inspect, correct, or control company knowledge | [Confluence](solutions/confluence.md), [GuruSup Company Brain](solutions/gurusup-company-brain.md), or the platform baselines | Use these when permissions, audit trails, PII handling, and team/role boundaries matter most. |
+| Keep everything self-hosted / avoid vendor lock-in | [Onyx](solutions/onyx.md), [Outline](solutions/outline.md), [Docmost](solutions/docmost.md), [BookStack](solutions/bookstack.md), [AnythingLLM](solutions/anythingllm.md), [RAGFlow](solutions/ragflow.md), or [Quivr](solutions/quivr.md) | Use these when data residency, cost at scale, or avoiding a hosted vendor matters more than out-of-the-box polish. |
 
 ## Solution Snapshot
 
@@ -61,8 +62,19 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 
 | Solution | Strongest lifecycle coverage | Best when | Main tradeoff |
 |---|---|---|---|
-| [Onyx (formerly Danswer)](solutions/onyx.md) | Collect, Organize, Use | You want an open-source, self-hostable enterprise search and RAG chat layer over company sources. | Self-hosting means you own the operational burden. |
 | [Hebbia](solutions/hebbia.md) | Use | You need an AI agent for deep analysis over large, unstructured document sets (e.g. contracts, filings). | More specialized analyst workflow than general company Q&A. |
+
+### Open Source / Self-Hosted
+
+| Solution | Strongest lifecycle coverage | Best when | Main tradeoff |
+|---|---|---|---|
+| [Onyx (formerly Danswer)](solutions/onyx.md) | Collect, Organize, Use | You want a self-hostable enterprise search and RAG chat layer over company sources. | Self-hosting means you own the operational burden. |
+| [Outline](solutions/outline.md) | Organize, Govern | You want a self-hostable, polished wiki of record as an alternative to Confluence/Notion. | Not an AI/RAG layer by itself; pair it with a retrieval layer if agents need to query it. |
+| [Docmost](solutions/docmost.md) | Organize, Use | You want a newer, self-hosted Confluence/Notion-style wiki with real-time collaboration. | Younger project; verify maturity and roadmap before committing. |
+| [BookStack](solutions/bookstack.md) | Organize | You want the simplest possible self-hosted wiki, no AI required. | No built-in AI/retrieval layer. |
+| [AnythingLLM](solutions/anythingllm.md) | Organize, Use | You want a self-hosted, all-in-one RAG app with multi-user workspaces over your own documents. | You own hosting, model choice, and vector DB operations. |
+| [RAGFlow](solutions/ragflow.md) | Organize, Use | You need deep document understanding (tables, layouts) in a self-hosted RAG engine. | More infrastructure-shaped than an out-of-the-box product. |
+| [Quivr](solutions/quivr.md) | Collect, Use | You want a self-hostable AI second brain that a small team can share. | Team/org governance is less mature than dedicated enterprise platforms. |
 
 ### Platform Baselines
 

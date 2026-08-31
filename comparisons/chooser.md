@@ -16,8 +16,12 @@ If the real risk is stale answers (old pricing, deprecated features, outdated po
 
 ## Use company knowledge inside AI agents and workflows
 
-If the goal is grounding AI agents — support bots, internal copilots, sales assistants — rather than just giving humans a search bar, prioritize agent activation surfaces (MCP, API, SDK, plugins): [GuruSup Company Brain](../solutions/gurusup-company-brain.md), [Onyx](../solutions/onyx.md), [Hebbia](../solutions/hebbia.md), and [Glean](../solutions/glean.md) are built with agent/API access as a first-class path, not an afterthought.
+If the goal is grounding AI agents — support bots, internal copilots, sales assistants — rather than just giving humans a search bar, prioritize agent activation surfaces (MCP, API, SDK, plugins): [GuruSup Company Brain](../solutions/gurusup-company-brain.md), [Onyx](../solutions/onyx.md), [AnythingLLM](../solutions/anythingllm.md), [RAGFlow](../solutions/ragflow.md), [Hebbia](../solutions/hebbia.md), and [Glean](../solutions/glean.md) are built with agent/API access as a first-class path, not an afterthought.
 
 ## Govern, inspect, correct, or control company knowledge
 
 If visibility, permissions, audit trails, and correction workflows matter most (regulated industries, large orgs, customer-facing answers), prioritize solutions with strong role/team scoping and access control: [Confluence](../solutions/confluence.md), the platform baselines, and [GuruSup Company Brain](../solutions/gurusup-company-brain.md) should be evaluated specifically on the [Team / org / role scope](../capabilities/README.md) and [Privacy / access control](../capabilities/README.md) dimensions before adoption.
+
+## Keep everything self-hosted / avoid vendor lock-in
+
+If data residency, long-term cost, or avoiding dependence on a hosted vendor is the primary constraint, look at the [Open Source / Self-Hosted](../solutions/README.md#open-source--self-hosted) layer: [Onyx](../solutions/onyx.md), [Outline](../solutions/outline.md), [Docmost](../solutions/docmost.md), [BookStack](../solutions/bookstack.md), [AnythingLLM](../solutions/anythingllm.md), [RAGFlow](../solutions/ragflow.md), and [Quivr](../solutions/quivr.md) can all be self-hosted, but you take on the operational burden that hosted platforms absorb for you — weigh that against the [Setup / operations](../capabilities/README.md) dimension for your team's real capacity.

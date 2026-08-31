@@ -20,8 +20,17 @@ Individual profiles for each company-brain solution, one file per solution. Ever
 
 ## Agent Memory / Context Layers for Orgs
 
-- [Onyx (formerly Danswer)](onyx.md)
 - [Hebbia](hebbia.md)
+
+## Open Source / Self-Hosted
+
+- [Onyx (formerly Danswer)](onyx.md)
+- [Outline](outline.md)
+- [Docmost](docmost.md)
+- [BookStack](bookstack.md)
+- [AnythingLLM](anythingllm.md)
+- [RAGFlow](ragflow.md)
+- [Quivr](quivr.md)
 
 ## Platform Baselines
 
