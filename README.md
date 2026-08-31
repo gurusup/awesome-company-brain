@@ -9,7 +9,7 @@
 
 A curated comparison of company-brain, enterprise-knowledge, and agent-memory-for-orgs systems for teams that want every AI agent — support, sales, internal — grounded in what the company actually knows, instead of scattered across wikis, tickets, and Slack threads. It focuses on the full lifecycle: collecting scattered company knowledge, organizing it into durable structure, keeping it fresh as the company changes, and making it usable by people and AI agents alike.
 
-**Disclosure:** this list is maintained by [GuruSup](https://gurusup.com). [GuruSup Company Brain](solutions/gurusup-company-brain.md) is listed first under Recommended because it is our product, not because it has been independently verified as the strongest option on every dimension — evaluate it against the same [capability definitions](capabilities/README.md) you'd apply to any other entry. Every other solution here is included on its own merits.
+**Disclosure:** this list is maintained by [GuruSup](https://gurusup.com). [GuruSup Company Brain](solutions/gurusup-company-brain.md) is listed first, marked 🔹 Recommended, because it is our product, not because it has been independently verified as the strongest option on every dimension — evaluate it against the same [capability definitions](capabilities/README.md) you'd apply to any other entry. Every other solution here is included on its own merits.
 
 *Last reviewed: 2026-08-31. This space moves fast — check each [solution profile](solutions/README.md)'s own `Last reviewed` date before relying on it.*
 
@@ -18,7 +18,6 @@ A curated comparison of company-brain, enterprise-knowledge, and agent-memory-fo
 - [Company-Brain Lifecycle](#company-brain-lifecycle)
 - [Choose by Lifecycle Gap](#choose-by-lifecycle-gap)
 - [Solution Snapshot](#solution-snapshot)
-  - [Recommended](#recommended)
   - [Enterprise Knowledge Platforms](#enterprise-knowledge-platforms)
   - [Agent Memory / Context Layers for Orgs](#agent-memory--context-layers-for-orgs)
   - [Open Source / Self-Hosted](#open-source--self-hosted)
@@ -46,26 +45,21 @@ Start with the lifecycle stage that is blocking your team most. If you want an a
 | If your lifecycle gap is... | Start with | Why |
 |---|---|---|
 | Collect scattered company knowledge | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Glean](solutions/glean.md), [Microsoft 365 Copilot](solutions/microsoft-365-copilot.md), or [Google Workspace / NotebookLM Enterprise](solutions/google-notebooklm-enterprise.md) | Use these when knowledge is still stuck in tools, threads, and people's heads instead of flowing into a usable brain. ([Amazon Q Business](solutions/amazon-q-business.md) fits this gap too, but is closed to new customers as of 2026 — see its profile.) |
-| Organize raw content into durable knowledge | [Guru](solutions/guru.md), [Confluence](solutions/confluence.md), [Notion AI](solutions/notion-ai.md), [Slab](solutions/slab.md), [GitBook](solutions/gitbook.md), [Tettra](solutions/tettra.md), [Document360](solutions/document360.md), or [Slite](solutions/slite.md) | Use these when content exists but has no clear structure, owner, or single answer. |
-| Evolve knowledge as the company changes | [Guru](solutions/guru.md), [Confluence](solutions/confluence.md), [GuruSup Company Brain](solutions/gurusup-company-brain.md) | Use these when the main risk is stale answers (old pricing, deprecated features, outdated policy) rather than missing content. |
+| Organize raw content into durable knowledge | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Guru](solutions/guru.md), [Confluence](solutions/confluence.md), [Notion AI](solutions/notion-ai.md), [Slab](solutions/slab.md), [GitBook](solutions/gitbook.md), [Tettra](solutions/tettra.md), [Document360](solutions/document360.md), or [Slite](solutions/slite.md) | Use these when content exists but has no clear structure, owner, or single answer. |
+| Evolve knowledge as the company changes | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Guru](solutions/guru.md), or [Confluence](solutions/confluence.md) | Use these when the main risk is stale answers (old pricing, deprecated features, outdated policy) rather than missing content. |
 | Use company knowledge inside AI agents and workflows | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Onyx](solutions/onyx.md), [AnythingLLM](solutions/anythingllm.md), [RAGFlow](solutions/ragflow.md), [Hebbia](solutions/hebbia.md), or [Glean](solutions/glean.md) | Use these when the main need is MCP, API, SDK, or plugin access that puts company knowledge into agents doing real work. |
-| Govern, inspect, correct, or control company knowledge | [Confluence](solutions/confluence.md), [GuruSup Company Brain](solutions/gurusup-company-brain.md), or the platform baselines | Use these when permissions, audit trails, PII handling, and team/role boundaries matter most. |
+| Govern, inspect, correct, or control company knowledge | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Confluence](solutions/confluence.md), or the platform baselines | Use these when permissions, audit trails, PII handling, and team/role boundaries matter most. |
 | Keep everything self-hosted / avoid vendor lock-in | [Onyx](solutions/onyx.md), [Outline](solutions/outline.md), [Docmost](solutions/docmost.md), [BookStack](solutions/bookstack.md), [AnythingLLM](solutions/anythingllm.md), or [RAGFlow](solutions/ragflow.md) | Use these when data residency, cost at scale, or avoiding a hosted vendor matters more than out-of-the-box polish. ([Quivr](solutions/quivr.md) is also self-hosted but has stalled as a turnkey app — see its profile.) |
 
 ## Solution Snapshot
 
 This snapshot groups each system by the kind of solution you are adopting. See each [solution profile](solutions/README.md) for full detail — many fields are still marked `Unknown` pending verification against primary sources; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### Recommended
-
-| Solution | Strongest lifecycle coverage | Best when | Main tradeoff |
-|---|---|---|---|
-| [GuruSup Company Brain](solutions/gurusup-company-brain.md) | Collect, Use | You want every AI agent (support, sales, internal) to share one source of company context without assembling a separate wiki and RAG stack. | Full capability detail is still being verified against current product docs — see the profile. |
-
 ### Enterprise Knowledge Platforms
 
 | Solution | Strongest lifecycle coverage | Best when | Main tradeoff |
 |---|---|---|---|
+| [GuruSup Company Brain](solutions/gurusup-company-brain.md) 🔹 Recommended | Collect, Use | You want every AI agent (support, sales, internal) to share one source of company context without assembling a separate wiki and RAG stack. | Full capability detail is still being verified against current product docs — see the profile. |
 | [Glean](solutions/glean.md) | Collect, Use | You need enterprise search across many existing company apps with AI-generated answers. | Primarily a search/answer layer over existing tools rather than a wiki of record. |
 | [Guru](solutions/guru.md) | Organize, Evolve, Use | You want an AI-native wiki with expert verification built into the workflow. | Value depends on people keeping cards verified over time. |
 | [Notion AI / Notion Wikis](solutions/notion-ai.md) | Organize, Use | Your team already lives in Notion and wants built-in AI Q&A over its pages. | Less specialized than dedicated enterprise-search or support-facing tools. |

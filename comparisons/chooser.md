@@ -8,11 +8,11 @@ If knowledge is stuck in Slack threads, tickets, meeting notes, and people's hea
 
 ## Organize raw content into durable knowledge
 
-If content exists but is unstructured — no clear owner, no FAQ, no single answer — prioritize wiki-style structure and editorial workflow: [Guru](../solutions/guru.md), [Confluence](../solutions/confluence.md), [Notion AI](../solutions/notion-ai.md), [Slab](../solutions/slab.md), [GitBook](../solutions/gitbook.md), [Tettra](../solutions/tettra.md), [Document360](../solutions/document360.md), and [Slite](../solutions/slite.md) all center on turning content into structured, ownable pages.
+If content exists but is unstructured — no clear owner, no FAQ, no single answer — prioritize wiki-style structure and editorial workflow: [GuruSup Company Brain](../solutions/gurusup-company-brain.md), [Guru](../solutions/guru.md), [Confluence](../solutions/confluence.md), [Notion AI](../solutions/notion-ai.md), [Slab](../solutions/slab.md), [GitBook](../solutions/gitbook.md), [Tettra](../solutions/tettra.md), [Document360](../solutions/document360.md), and [Slite](../solutions/slite.md) all center on turning content into structured, ownable pages.
 
 ## Evolve knowledge as the company changes
 
-If the real risk is stale answers (old pricing, deprecated features, outdated policy), prioritize solutions with explicit review/verification cycles and staleness detection over ones that only index whatever exists today. Most wiki tools above offer some form of verification workflow; check each [solution profile](../solutions/README.md) for specifics before relying on it.
+If the real risk is stale answers (old pricing, deprecated features, outdated policy), prioritize solutions with explicit review/verification cycles and staleness detection over ones that only index whatever exists today: [GuruSup Company Brain](../solutions/gurusup-company-brain.md), [Guru](../solutions/guru.md), and [Confluence](../solutions/confluence.md) each offer some form of this. Check each [solution profile](../solutions/README.md) for specifics before relying on it.
 
 ## Use company knowledge inside AI agents and workflows
 

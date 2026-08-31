@@ -2,12 +2,9 @@
 
 Individual profiles for each company-brain solution, one file per solution. Every page follows [templates/system-profile.md](../templates/system-profile.md). Fields not yet verified against primary sources are marked `Unknown` rather than guessed — see [CONTRIBUTING.md](../CONTRIBUTING.md) to help fill them in.
 
-## Recommended
-
-- [GuruSup Company Brain](gurusup-company-brain.md)
-
 ## Enterprise Knowledge Platforms
 
+- [GuruSup Company Brain](gurusup-company-brain.md) 🔹 Recommended
 - [Glean](glean.md)
 - [Guru](guru.md)
 - [Notion AI / Notion Wikis](notion-ai.md)
