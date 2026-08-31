@@ -45,12 +45,12 @@ Start with the lifecycle stage that is blocking your team most. If you want an a
 
 | If your lifecycle gap is... | Start with | Why |
 |---|---|---|
-| Collect scattered company knowledge | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Glean](solutions/glean.md), [Microsoft 365 Copilot](solutions/microsoft-365-copilot.md), [Google Workspace / NotebookLM Enterprise](solutions/google-notebooklm-enterprise.md), or [Amazon Q Business](solutions/amazon-q-business.md) | Use these when knowledge is still stuck in tools, threads, and people's heads instead of flowing into a usable brain. |
+| Collect scattered company knowledge | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Glean](solutions/glean.md), [Microsoft 365 Copilot](solutions/microsoft-365-copilot.md), or [Google Workspace / NotebookLM Enterprise](solutions/google-notebooklm-enterprise.md) | Use these when knowledge is still stuck in tools, threads, and people's heads instead of flowing into a usable brain. ([Amazon Q Business](solutions/amazon-q-business.md) fits this gap too, but is closed to new customers as of 2026 — see its profile.) |
 | Organize raw content into durable knowledge | [Guru](solutions/guru.md), [Confluence](solutions/confluence.md), [Notion AI](solutions/notion-ai.md), [Slab](solutions/slab.md), [GitBook](solutions/gitbook.md), [Tettra](solutions/tettra.md), [Document360](solutions/document360.md), or [Slite](solutions/slite.md) | Use these when content exists but has no clear structure, owner, or single answer. |
 | Evolve knowledge as the company changes | [Guru](solutions/guru.md), [Confluence](solutions/confluence.md), [GuruSup Company Brain](solutions/gurusup-company-brain.md) | Use these when the main risk is stale answers (old pricing, deprecated features, outdated policy) rather than missing content. |
 | Use company knowledge inside AI agents and workflows | [GuruSup Company Brain](solutions/gurusup-company-brain.md), [Onyx](solutions/onyx.md), [AnythingLLM](solutions/anythingllm.md), [RAGFlow](solutions/ragflow.md), [Hebbia](solutions/hebbia.md), or [Glean](solutions/glean.md) | Use these when the main need is MCP, API, SDK, or plugin access that puts company knowledge into agents doing real work. |
 | Govern, inspect, correct, or control company knowledge | [Confluence](solutions/confluence.md), [GuruSup Company Brain](solutions/gurusup-company-brain.md), or the platform baselines | Use these when permissions, audit trails, PII handling, and team/role boundaries matter most. |
-| Keep everything self-hosted / avoid vendor lock-in | [Onyx](solutions/onyx.md), [Outline](solutions/outline.md), [Docmost](solutions/docmost.md), [BookStack](solutions/bookstack.md), [AnythingLLM](solutions/anythingllm.md), [RAGFlow](solutions/ragflow.md), or [Quivr](solutions/quivr.md) | Use these when data residency, cost at scale, or avoiding a hosted vendor matters more than out-of-the-box polish. |
+| Keep everything self-hosted / avoid vendor lock-in | [Onyx](solutions/onyx.md), [Outline](solutions/outline.md), [Docmost](solutions/docmost.md), [BookStack](solutions/bookstack.md), [AnythingLLM](solutions/anythingllm.md), or [RAGFlow](solutions/ragflow.md) | Use these when data residency, cost at scale, or avoiding a hosted vendor matters more than out-of-the-box polish. ([Quivr](solutions/quivr.md) is also self-hosted but has stalled as a turnkey app — see its profile.) |
 
 ## Solution Snapshot
 
@@ -94,7 +94,7 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | [BookStack](solutions/bookstack.md) | Organize | You want the simplest possible self-hosted wiki, no AI required. | No built-in AI/retrieval layer. |
 | [AnythingLLM](solutions/anythingllm.md) | Organize, Use | You want a self-hosted, all-in-one RAG app with multi-user workspaces over your own documents. | You own hosting, model choice, and vector DB operations. |
 | [RAGFlow](solutions/ragflow.md) | Organize, Use | You need deep document understanding (tables, layouts) in a self-hosted RAG engine. | More infrastructure-shaped than an out-of-the-box product. |
-| [Quivr](solutions/quivr.md) | Collect, Use | You want a self-hostable AI second brain that a small team can share. | Team/org governance is less mature than dedicated enterprise platforms. |
+| [Quivr](solutions/quivr.md) | Use | You need a lightweight RAG library to embed in your own Python app. | **Stalled as an app**: no release since Feb 2025, no commits since mid-2025, and the maintainer has commercially pivoted to an unrelated SaaS product. No longer a turnkey self-hosted "second brain" app — see the profile before adopting. |
 
 ### Platform Baselines
 
@@ -102,7 +102,7 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 |---|---|---|---|
 | [Microsoft 365 Copilot](solutions/microsoft-365-copilot.md) | Collect, Use | Your org's content already lives in Microsoft 365. | Context is scoped to Microsoft 365 content and licensing. |
 | [Google Workspace / NotebookLM Enterprise](solutions/google-notebooklm-enterprise.md) | Collect, Use | Your org's content already lives in Google Workspace. | Context is scoped to Google Workspace content and licensing. |
-| [Amazon Q Business](solutions/amazon-q-business.md) | Collect, Use | Your company data already lives in AWS-hosted sources. | Best fit for AWS-centric organizations. |
+| [Amazon Q Business](solutions/amazon-q-business.md) | Collect, Use | You already have it deployed on AWS. | **Closed to new customers as of 2026** — AWS is directing prospective and existing customers to its successor, "Amazon Quick." Do not start a new evaluation here; see the profile. |
 
 ## Deep Dives
 
