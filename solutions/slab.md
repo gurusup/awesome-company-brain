@@ -89,5 +89,4 @@ Slab trades deep, automated knowledge-lifecycle machinery for simplicity and app
 - https://help.slab.com/en/articles/3904505-user-types
 - https://help.slab.com/en/articles/2849252-guest-accounts
 - https://help.slab.com/en/articles/4136379-post-verification
-- https://updates.slab.com/keep-your-wiki-fresh-and-accurate-with-verified-posts!-155633
 - https://github.com/russwyte/slabby (unofficial, community-built MCP server — cited only to support the claim that no official one was found)

@@ -2,7 +2,7 @@
 
 ## Snapshot
 
-- Website / docs: https://core.quivr.com (library docs) — the original https://www.quivr.app product site is unreachable; https://www.quivr.com now hosts a separate, unrelated commercial customer-support-agent SaaS product from the same company — code: https://github.com/QuivrHQ/quivr
+- Website / docs: https://core.quivr.com (library docs) — the original `www.quivr.app` product site is unreachable (dead domain, not linked here); https://www.quivr.com now hosts a separate, unrelated commercial customer-support-agent SaaS product from the same company — code: https://github.com/QuivrHQ/quivr
 - Company / maintainer: Quivr (GitHub org QuivrHQ; founder/lead maintainer StanGirard)
 - Status: Open-source repo is not formally archived but shows a stalled maintenance pattern — last commit 2025-06-19 (last push 2025-07-09), last release `core-0.0.33` published 2025-02-04, no release since — over a year stale as of this review (2026-08-31). The company's commercial focus has visibly shifted to a separate, unrelated paid customer-support-agent SaaS product at quivr.com.
 - Open source: Yes — Apache License 2.0 (verified by reading the raw LICENSE file content, which is standard Apache 2.0 text). Note: GitHub's automated license detector flags the repo as "Other / NOASSERTION," almost certainly because the copyright line's placeholder brackets (`[2023-2024] [Quivr]`) were never filled in — the license text itself is unambiguously Apache 2.0.
@@ -77,4 +77,4 @@ Quivr's Apache 2.0 license and lightweight library design make it easy to adopt 
 - https://raw.githubusercontent.com/QuivrHQ/quivr/main/LICENSE
 - https://core.quivr.com
 - https://www.quivr.com
-- https://www.quivr.app (attempted — unreachable, SSL/connection failure)
+- `www.quivr.app` (attempted — unreachable, SSL/connection failure; not linked)

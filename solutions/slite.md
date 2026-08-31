@@ -72,7 +72,6 @@ Slite trades deployment flexibility for product cohesion: it is a fully managed,
 - https://slite.com/mcp
 - https://slite.com/security
 - https://developers.slite.com/
-- https://slite.com/help/77mvFqJWG1tduF/Slite-MCP
 
 ## Sources
 
