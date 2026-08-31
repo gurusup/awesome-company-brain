@@ -20,6 +20,11 @@ Individual profiles for each company-brain solution, one file per solution. Ever
 - [Hebbia](hebbia.md)
 - [Cognee](cognee.md)
 - [Zep / Graphiti](zep-graphiti.md)
+- [Hjarni](hjarni.md)
+- [Hyper](hyper.md)
+- [Memory Store](memory-store.md)
+- [Wato](wato.md)
+- [Hyperspell](hyperspell.md)
 
 ## Open Source / Self-Hosted
 
@@ -30,6 +35,9 @@ Individual profiles for each company-brain solution, one file per solution. Ever
 - [AnythingLLM](anythingllm.md)
 - [RAGFlow](ragflow.md)
 - [Quivr](quivr.md)
+- [GBrain](gbrain.md)
+- [Pad](pad.md)
+- [OpenViking](openviking.md)
 
 ## Platform Baselines
 

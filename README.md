@@ -77,6 +77,11 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | [Hebbia](solutions/hebbia.md) | Use | You need an AI agent for deep analysis over large, unstructured document sets (e.g. contracts, filings). | More specialized analyst workflow than general company Q&A. |
 | [Cognee](solutions/cognee.md) | Organize, Evolve, Use | You need graph-oriented memory infrastructure to build a company brain on top of, via SDK, MCP, or API. | Requires application or workflow integration above it; not an out-of-the-box product. |
 | [Zep / Graphiti](solutions/zep-graphiti.md) | Organize, Evolve, Use | You need temporal graph memory and Graph RAG under an application. | Not a complete user-facing company brain by itself. |
+| [Hjarni](solutions/hjarni.md) | Organize, Use | You want a hosted, agent-writable team notebook with per-team AI instructions. | No automatic connectors to company tools — capture is manual notes only. |
+| [Hyper](solutions/hyper.md) | Collect, Organize, Use | You want a YC-backed "company brain" that builds a self-maintaining knowledge graph from Slack/email/docs for AI agents. | Very early-stage (YC Spring 2026); limited independent track record. |
+| [Memory Store](solutions/memory-store.md) | Collect, Use | You want a shared memory synthesizing Slack/Gmail/meeting notes into a living wiki for your team's agents. | Very early-stage (YC Spring 2026); limited independent track record. |
+| [Wato](solutions/wato.md) | Use | You want a shared AI workspace giving a team's agents shared memory and traceable tool calls. | Very early-stage (YC Spring 2026); limited independent track record. |
+| [Hyperspell](solutions/hyperspell.md) | Collect, Organize, Use | You're building your own agent product and need a memory/context API rather than an end-user app. | Infra/API layer, not a turnkey product — you still build the surface your users see. |
 
 ### Open Source / Self-Hosted
 
@@ -89,6 +94,9 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | [AnythingLLM](solutions/anythingllm.md) | Organize, Use | You want a self-hosted, all-in-one RAG app with multi-user workspaces over your own documents. | You own hosting, model choice, and vector DB operations. |
 | [RAGFlow](solutions/ragflow.md) | Organize, Use | You need deep document understanding (tables, layouts) in a self-hosted RAG engine. | More infrastructure-shaped than an out-of-the-box product. |
 | [Quivr](solutions/quivr.md) | Use | You need a lightweight RAG library to embed in your own Python app. | **Stalled as an app**: no release since Feb 2025, no commits since mid-2025, and the maintainer has commercially pivoted to an unrelated SaaS product. No longer a turnkey self-hosted "second brain" app — see the profile before adopting. |
+| [GBrain](solutions/gbrain.md) | Collect, Organize, Use | You want an open-source (MIT), self-hostable agent-memory system with a documented multi-user "company brain" team mode. | Team mode needs real infra setup (Postgres/Supabase + OAuth); very young project (~5 months old) with unproven governance maturity. |
+| [Pad](solutions/pad.md) | Organize, Use | You want a self-hosted or managed team workspace with real RBAC that agents can read and write via MCP/API/CLI. | Structured/keyword retrieval only — no semantic recall or automatic consolidation. |
+| [OpenViking](solutions/openviking.md) | Collect, Organize, Use | You want a fully open-source (AGPL-3.0), research-backed context database that many agent CLIs (Claude Code, Codex, Cursor) plug into natively. | Team/company permissions are a paid Enterprise add-on, not part of the open-source core; no pre-built connectors to Slack/CRM/ticketing. |
 
 ### Platform Baselines
 
@@ -105,12 +113,16 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | [Chooser](comparisons/chooser.md) | Pick a starting solution by lifecycle gap, with more reasoning than the summary table above. |
 | [Capability Definitions](capabilities/README.md) | Understand the ten evaluation dimensions behind every solution profile. |
 | [Watchlist](watchlist.md) | Track promising solutions that are not yet fully evaluated. |
+| [External Resources](resources.md) | Essays, talks, and YC context on where the "company brain" category came from — including a claim we could not verify, flagged as such. |
 
 ## Related Lists
 
-- [Awesome AI Second Brain](https://github.com/aristoapp/awesome-second-brain) — the personal/individual counterpart to this list; this repo's structure is adapted from it.
+- [Awesome AI Second Brain](https://github.com/aristoapp/awesome-second-brain) — the personal/individual counterpart to this list; this repo's structure is adapted from it. Most personal Obsidian-vault-plus-agent projects (the "LLM Wiki" pattern popularized by Andrej Karpathy) belong there, not here — this list is scoped to company/team knowledge, not individual note-taking setups.
 - [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — broader catalog of self-hostable software, useful background for the [Open Source / Self-Hosted](#open-source--self-hosted) category above.
 - [Awesome](https://github.com/sindresorhus/awesome) — the curated list of awesome lists this repo follows the conventions of.
+- [anthropics/skills](https://github.com/anthropics/skills) — Anthropic's official public repository of Agent Skills; relevant if you're packaging company knowledge as skills for Claude agents rather than (or alongside) a retrieval layer.
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — curated list of Claude Skills, resources, and tools for customizing Claude AI workflows.
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curated Claude Code resources, including a section on Obsidian and memory/second-brain tooling for individual developers.
 
 ## Sources
 
