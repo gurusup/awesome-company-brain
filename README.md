@@ -1,4 +1,4 @@
-![Company Brain](header.png)
+[![Company Brain](header.png)](https://gurusup.com/brain?utm_source=github&utm_medium=organic_social&utm_campaign=readme&utm_content=awesome-company-brain)
 
 # Awesome Company Brain
 

@@ -2,7 +2,7 @@
 
 ## Snapshot
 
-- Website / docs: https://gurusup.com
+- Website / docs: https://gurusup.com/brain?utm_source=github&utm_medium=organic_social&utm_campaign=readme&utm_content=awesome-company-brain
 - Company / maintainer: GuruSup
 - Status: Unknown.
 - Open source: Unknown.
@@ -57,7 +57,7 @@ Unknown.
 
 ## Official Setup / Evaluation Links
 
-- [GuruSup](https://gurusup.com)
+- [GuruSup Company Brain](https://gurusup.com/brain?utm_source=github&utm_medium=organic_social&utm_campaign=readme&utm_content=awesome-company-brain)
 
 ## Sources
 
