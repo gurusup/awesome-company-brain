@@ -29,6 +29,7 @@ Unknown beyond the one-line positioning above — this is a very young company (
 | Knowledge evolution (freshness, dedup, review cycles) | Unknown. |
 | Retrieval / use (search, grounding, citations) | Unknown. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Unknown. |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Unknown. |
 | Team / org / role scope | Unknown. |
 | Feedback / correction | Unknown. |
 | Privacy / access control | Unknown. |

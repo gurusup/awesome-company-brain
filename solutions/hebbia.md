@@ -29,6 +29,7 @@ Hebbia is best understood as a vertical AI application, not a general-purpose co
 | Knowledge evolution (freshness, dedup, review cycles) | Unknown — not documented publicly. |
 | Retrieval / use (search, grounding, citations) | Core strength: multi-agent "ISD" (Information/Synthesis/Decomposition) pipeline decomposes queries and returns citation-backed, source-linked answers over large unstructured corpora. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Unknown — no public MCP server or open API documented; access appears to be primarily through Hebbia's own web app. |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Partial — its own multi-agent ISD pipeline returns citation-backed, source-linked answers, real evidence that retrieved content is used inside Hebbia's own product. No public MCP/API surface exists to show the same pattern holding for third-party agents. |
 | Team / org / role scope | Seat-based licensing (e.g., Professional vs. Lite seats per third-party pricing reports) implies per-user/per-seat access; no public detail on team/role-based knowledge scoping. |
 | Feedback / correction | Unknown — not documented publicly. |
 | Privacy / access control | SOC 2 Type II and ISO certified per Hebbia's security page; states it does not train on customer data; AES-256 at rest, TLS 1.3 in transit; GDPR compliant, CCPA "coming soon" per site (as reviewed). |

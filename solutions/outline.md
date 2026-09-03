@@ -29,6 +29,7 @@ Outline sits mainly in the **Organize** and **Use** stages of the company-brain 
 | Knowledge evolution (freshness, dedup, review cycles) | Full document revision history and comments; no automated freshness scoring, dedup, or scheduled review workflow. |
 | Retrieval / use (search, grounding, citations) | Fast full-text search across documents; no LLM-based RAG/grounding built into the core self-hosted product. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Public REST API for reading/writing documents; Slack app integration; no official MCP server or support-bot integration in the open self-hosted core. |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Unknown — the core has no built-in AI/RAG chat or citation mechanism, so there is nothing that shows retrieved content being loaded into an agent's answer; the API only confirms documents are readable/writable. |
 | Team / org / role scope | Team/workspace-based with collection-level and document-level permissions (view/edit), plus user groups; suitable for company-wide or team-scoped wikis. |
 | Feedback / correction | Inline comments and suggestions on documents, plus full version history for corrections and rollbacks. |
 | Privacy / access control | Self-hosting keeps data under company control; supports SSO (OIDC/SAML depending on plan/edition) and granular collection/document permissions; audit logging is more built out on paid Cloud plans. |

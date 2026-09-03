@@ -32,6 +32,7 @@ Quivr's current shape does not map well onto the standard company-brain lifecycl
 | Knowledge evolution (freshness, dedup, review cycles) | Unknown — not documented in current sources. |
 | Retrieval / use (search, grounding, citations) | Multi-LLM support (OpenAI, Anthropic, Mistral, Gemma, local via Ollama), vector stores (PGVector, Faiss), reranking via Cohere, and multi-turn conversation handling. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Unknown for the open-source core — no MCP, Slack/Teams, or support-bot write-back integration was confirmed in fetched docs. (Note: the separate commercial quivr.com SaaS product does offer support-bot agents and MCP/webhook integrations, but that is a distinct, non-open-source product line, not this repository.) |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Unknown — not documented beyond the retrieval/citation features described above. |
 | Team / org / role scope | No evidence found of a multi-user/team workspace UI, role-based permissions, or an admin console in the current open-source core. |
 | Feedback / correction | Unknown — not documented in current sources. |
 | Privacy / access control | Self-hosting the library keeps data under the implementer's control by design, but no built-in authentication, RBAC, or SSO layer was found — any access control must be built by the adopting application. |
