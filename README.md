@@ -4,7 +4,6 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last commit](https://img.shields.io/github/last-commit/gurusup/awesome-company-brain)](https://github.com/gurusup/awesome-company-brain/commits/main)
 
 > Give every AI agent your company context.
 
@@ -136,5 +135,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guidelines and 
 ## Footnotes
 
 - **Sourcing policy:** core claims should be backed by official documentation, official repositories, or verified hands-on use. This repo should point to official docs instead of duplicating step-by-step setup instructions. Fields not yet verified are marked `Unknown` rather than guessed.
-- **"Last commit" vs. "Last reviewed":** the badge at the top of this README reflects the last Git commit to the repo — a cheap freshness signal, but it can move on an unrelated typo fix. Each [solution profile](solutions/README.md)'s own `Last reviewed` date is the one that matters for whether that specific page's claims were re-checked against primary sources.
+- **Why there's no "last commit" badge:** shields.io-style dynamic freshness badges (seen on lists like `travisvn/awesome-claude-skills`) can't read this repo's commit history while it's private — the badge would just show "repo not found." Each [solution profile](solutions/README.md)'s own `Last reviewed` date, set manually against primary sources, is the freshness signal that matters here; revisit this badge if the repo ever goes public.
 - **UTM parameters on GuruSup links:** links to gurusup.com in this repo carry UTM tracking parameters. This is disclosed here for transparency, consistent with the conflict-of-interest disclosure above — the tracking doesn't change any rating or comparison.
