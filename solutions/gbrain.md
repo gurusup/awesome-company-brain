@@ -29,6 +29,7 @@ GBrain started as a personal agent-memory tool but documents a specific team dep
 | Knowledge evolution (freshness, dedup, review cycles) | Ships maintenance jobs (a "dream"/autopilot process) for consolidation. Independent verification of dedup/staleness quality is Unknown. |
 | Retrieval / use (search, grounding, citations) | Hybrid search: vector + BM25 + RRF + reranker, per repo docs. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Native MCP server (reported ~74 tools) — this is the primary integration surface, not a separate REST API. |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Partial: the append-only evidence trail in its page/graph/timeline model preserves provenance of stored memories, but no documented example shows a retrieved memory being cited or loaded into an agent's final response — Unknown beyond that trail. |
 | Team / org / role scope | Documented: OAuth-scoped, per-login access ("you only see what you're allowed to see") for the team/company deployment mode. Granularity beyond per-person scoping (e.g. per-team, per-role) is Unknown. |
 | Feedback / correction | Unknown — no dedicated correction/verification workflow found in the docs reviewed. |
 | Privacy / access control | Per-person OAuth scoping is documented for team mode; no compliance certification (SOC 2, ISO) claims found, as expected for an open-source project of this kind. |

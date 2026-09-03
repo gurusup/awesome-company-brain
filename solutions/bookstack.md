@@ -29,6 +29,7 @@ BookStack covers the **Organize** and **Collect** stages in the most minimal way
 | Knowledge evolution (freshness, dedup, review cycles) | Full page revision history with diff/comparison; no automated freshness scoring or dedup workflow. |
 | Retrieval / use (search, grounding, citations) | Full-text search scoped to a single book or across the whole instance; no AI/semantic search or RAG chat — none is planned as part of the project's stated minimalist philosophy. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Documented REST API (token-based auth) supports reading/writing content and exporting pages/chapters/books as PDF, HTML, plain text, or Markdown; no official MCP server, Slack bot, or support-bot integration. |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Unknown — not documented beyond the retrieval/citation features described above. |
 | Team / org / role scope | Full role-and-permission system with granular access control down to individual pages/chapters/books/shelves, role-based MFA enforcement, and multi-language UI (10+ languages via Crowdin). |
 | Feedback / correction | Comments on pages and full revision history support correction and rollback; no dedicated feedback-loop tooling. |
 | Privacy / access control | Self-hosted-only, so data never leaves the company's infrastructure by default; supports LDAP, SAML2, and OIDC SSO for enterprise auth alongside built-in email/password and social login. |

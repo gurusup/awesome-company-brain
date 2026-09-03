@@ -18,13 +18,8 @@ A curated comparison of company-brain, enterprise-knowledge, and agent-memory-fo
 - [Company-Brain Lifecycle](#company-brain-lifecycle)
 - [Choose by Lifecycle Gap](#choose-by-lifecycle-gap)
 - [Solution Snapshot](#solution-snapshot)
-  - [Enterprise Knowledge Platforms](#enterprise-knowledge-platforms)
-  - [Agent Memory / Context Layers for Orgs](#agent-memory--context-layers-for-orgs)
-  - [Open Source / Self-Hosted](#open-source--self-hosted)
-  - [Platform Baselines](#platform-baselines)
 - [Deep Dives](#deep-dives)
 - [Related Lists](#related-lists)
-- [Sources](#sources)
 
 ## Company-Brain Lifecycle
 
@@ -111,7 +106,10 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | Page | Use it for |
 |---|---|
 | [Chooser](comparisons/chooser.md) | Pick a starting solution by lifecycle gap, with more reasoning than the summary table above. |
-| [Capability Definitions](capabilities/README.md) | Understand the ten evaluation dimensions behind every solution profile. |
+| [Capability Matrix](comparisons/capability-matrix.md) | See all 31 solutions rated across all eleven evaluation dimensions at a glance. |
+| [Setup Burden](comparisons/setup-burden.md) | Group solutions by how much friction stands between you and a working instance — self-serve, sales-assisted, or DIY self-hosted. |
+| [Personal vs. Team](comparisons/personal-vs-team.md) | See which solutions are finished team products vs. infra/building-blocks you'd still need to build a surface for. |
+| [Capability Definitions](capabilities/README.md) | Understand the eleven evaluation dimensions behind every solution profile. |
 | [Watchlist](watchlist.md) | Track promising solutions that are not yet fully evaluated. |
 | [External Resources](resources.md) | Essays, talks, and YC context on where the "company brain" category came from — including a claim we could not verify, flagged as such. |
 
@@ -124,10 +122,6 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — curated list of Claude Skills, resources, and tools for customizing Claude AI workflows.
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curated Claude Code resources, including a section on Obsidian and memory/second-brain tooling for individual developers.
 
-## Sources
-
-Core claims should be backed by official documentation, official repositories, or verified hands-on use. This repo should point to official docs instead of duplicating step-by-step setup instructions. Fields not yet verified are marked `Unknown` rather than guessed.
-
 ## How To Contribute
 
 1. Pick the smallest contribution type that fits your evidence: a new solution profile, an update to an existing one, a comparison page, or a watchlist entry.
@@ -136,4 +130,10 @@ Core claims should be backed by official documentation, official repositories, o
 4. Link new or updated core solution profiles from [solutions/README.md](solutions/README.md) and [comparisons/chooser.md](comparisons/chooser.md) so readers can find them through the main decision paths.
 5. Open a PR with sources, verification notes, and any known limitations.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guidelines and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards.
+
+## Footnotes
+
+- **Sourcing policy:** core claims should be backed by official documentation, official repositories, or verified hands-on use. This repo should point to official docs instead of duplicating step-by-step setup instructions. Fields not yet verified are marked `Unknown` rather than guessed.
+- **Why there's no "last commit" badge:** shields.io-style dynamic freshness badges (seen on lists like `travisvn/awesome-claude-skills`) can't read this repo's commit history while it's private — the badge would just show "repo not found." Each [solution profile](solutions/README.md)'s own `Last reviewed` date, set manually against primary sources, is the freshness signal that matters here; revisit this badge if the repo ever goes public.
+- **UTM parameters on GuruSup links:** links to gurusup.com in this repo carry UTM tracking parameters. This is disclosed here for transparency, consistent with the conflict-of-interest disclosure above — the tracking doesn't change any rating or comparison.

@@ -15,6 +15,9 @@
 
 Quivr is an Apache-2.0-licensed Python RAG library (`quivr-core`) that historically shipped as a full self-hosted "second brain" web app, but has since been reduced to a bare embeddable library with no recent releases (last: Feb 2025), while its maintaining company's commercial attention has moved to an unrelated customer-support-agent SaaS product.
 
+> [!WARNING]
+> Stalled as a turnkey app: no release since February 2025, no commits since mid-2025, and the maintaining company has shifted its commercial focus to a separate, unrelated SaaS product. Treat this as a RAG library for developers, not a self-hosted "second brain" app — see [Tradeoffs](#tradeoffs) below.
+
 ## Company-Brain Fit
 
 Quivr's current shape does not map well onto the standard company-brain lifecycle as a turnkey product. **Collect** is possible at the library level (PDF, TXT, Markdown ingestion, extensible parsers, an advanced "Megaparse" parser), but there is no documented workspace UI, so **Organize**, **Evolve**, and **Govern** are left entirely to whatever application a team builds around `quivr-core` — none of these are provided out of the box. **Use** works at the retrieval/chat level (multi-LLM support, vector stores, reranking), but again only inside a custom-built application, not a ready product. Critically, self-hosting Quivr today means adopting an early-stage-feeling library with a stalled release cadence (last release February 2025) from a company that has publicly pivoted its commercial roadmap to a different, unrelated product — a real maintenance-risk signal for any team considering it as the foundation of a durable company-brain system. Teams evaluating it should treat it as a components library to build with, not a product to deploy.
@@ -29,6 +32,7 @@ Quivr's current shape does not map well onto the standard company-brain lifecycl
 | Knowledge evolution (freshness, dedup, review cycles) | Unknown — not documented in current sources. |
 | Retrieval / use (search, grounding, citations) | Multi-LLM support (OpenAI, Anthropic, Mistral, Gemma, local via Ollama), vector stores (PGVector, Faiss), reranking via Cohere, and multi-turn conversation handling. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Unknown for the open-source core — no MCP, Slack/Teams, or support-bot write-back integration was confirmed in fetched docs. (Note: the separate commercial quivr.com SaaS product does offer support-bot agents and MCP/webhook integrations, but that is a distinct, non-open-source product line, not this repository.) |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Unknown — not documented beyond the retrieval/citation features described above. |
 | Team / org / role scope | No evidence found of a multi-user/team workspace UI, role-based permissions, or an admin console in the current open-source core. |
 | Feedback / correction | Unknown — not documented in current sources. |
 | Privacy / access control | Self-hosting the library keeps data under the implementer's control by design, but no built-in authentication, RBAC, or SSO layer was found — any access control must be built by the adopting application. |

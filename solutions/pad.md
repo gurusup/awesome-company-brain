@@ -29,6 +29,7 @@ Pad's role-based access control (owner/editor/viewer), real-time collaborative e
 | Knowledge evolution (freshness, dedup, review cycles) | Unknown — no dedicated staleness/dedup mechanism documented. |
 | Retrieval / use (search, grounding, citations) | Structured/keyword retrieval (per the reference-repo profile this project is cross-listed in); no semantic/vector recall or automatic consolidation documented. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | Native skill, MCP, API, and CLI access — a first-class integration surface for agents to both read and write. |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Unknown — not documented beyond the retrieval/citation features described above. |
 | Team / org / role scope | RBAC with owner/editor/viewer roles; email/CLI invitations for onboarding teammates. |
 | Feedback / correction | Unknown. |
 | Privacy / access control | Role-based permissions are the documented control; no compliance certification claims found. |

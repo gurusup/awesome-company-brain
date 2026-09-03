@@ -29,6 +29,7 @@ Hjarni's shared team spaces with member management give it real multi-user suppo
 | Knowledge evolution (freshness, dedup, review cycles) | Unknown. |
 | Retrieval / use (search, grounding, citations) | Search over notes exposed via MCP tools; citation/grounding format not detailed. |
 | Agent activation / write-back (MCP, API, Slack/Teams, support bots) | 24+ MCP tools over OAuth2 remote MCP — agents can read, search, and write notes directly. |
+| Activation evidence (proof retrieved context is actually used, not just retrievable) | Unknown — not documented beyond the retrieval/citation features described above. |
 | Team / org / role scope | Shared team spaces with member management and per-team custom AI instructions. |
 | Feedback / correction | Unknown. |
 | Privacy / access control | OAuth2-based access to the MCP surface; no compliance certification claims found. |
