@@ -18,6 +18,7 @@ How much friction stands between you and a working company brain, before you've 
 | [GBrain](../solutions/gbrain.md) | Self-serve for personal use | Team mode requires DIY infra (Postgres/Supabase + OAuth) |
 | [Pad](../solutions/pad.md) | Self-serve managed cloud | DIY if self-hosting |
 | [OpenViking](../solutions/openviking.md) | Self-serve OSS | Enterprise (team permissions) is sales-led |
+| [Zep / Graphiti](../solutions/zep-graphiti.md) | Zep (commercial) has a self-serve cloud free tier | Graphiti (OSS) is DIY self-hosted |
 | [Microsoft 365 Copilot](../solutions/microsoft-365-copilot.md) | Self-serve add-on to existing M365 | Enterprise-scale rollout is sales-assisted |
 | [Amazon Q Business](../solutions/amazon-q-business.md) ⚠️ | Self-serve via AWS Console | **Closed to new customers as of 2026 — see [profile](../solutions/amazon-q-business.md)** |
 
@@ -42,7 +43,6 @@ How much friction stands between you and a working company brain, before you've 
 | [RAGFlow](../solutions/ragflow.md) | Resource-heavy self-hosted deployment; managed cloud option also exists. |
 | [Quivr](../solutions/quivr.md) ⚠️ | Not turnkey at all — a Python library (`pip install quivr-core`) you build an app around. |
 | [Cognee](../solutions/cognee.md) | Infra/SDK layer — self-host or use Cognee Cloud/BYOC. |
-| [Zep / Graphiti](../solutions/zep-graphiti.md) | Graphiti (OSS) is DIY; Zep (commercial) has a self-serve cloud free tier. |
 
 ## Unknown
 

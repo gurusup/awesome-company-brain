@@ -11,22 +11,22 @@ Columns (abbreviated — see [Capability Definitions](../capabilities/README.md)
 | [GuruSup Company Brain](../solutions/gurusup-company-brain.md) 🔹 | Partial | Partial | Partial | Partial | Partial | Partial | Unknown | Partial | Partial | Partial | Weak |
 | [Glean](../solutions/glean.md) | Strong | Strong | Strong | Partial | Strong | Strong | Partial | Strong | Unknown | Strong | Weak |
 | [Guru](../solutions/guru.md) | Partial | Strong | Strong | Strong | Strong | Strong | Strong | Strong | Strong | Strong | Weak |
-| [Notion AI](../solutions/notion-ai.md) | Weak | Partial | Strong | Weak | Strong | Strong | Unknown | Partial | Weak | Strong | Strong |
+| [Notion AI](../solutions/notion-ai.md) | Partial | Partial | Strong | Weak | Strong | Strong | Unknown | Partial | Weak | Strong | Strong |
 | [Confluence](../solutions/confluence.md) | Partial | Strong | Partial | Weak | Strong | Partial | Partial | Strong | Unknown | Partial | Strong |
-| [Slab](../solutions/slab.md) | Weak | Weak | Partial | Strong | Partial | Weak | Unknown | Partial | Partial | Partial | Strong |
-| [GitBook](../solutions/gitbook.md) | Weak | Weak | Partial | Partial | Partial | Strong | Unknown | Partial | Weak | Partial | Strong |
-| [Tettra](../solutions/tettra.md) | Weak | Weak | Partial | Strong | Partial | Weak | Unknown | Partial | Partial | Partial | Strong |
+| [Slab](../solutions/slab.md) | Partial | Weak | Partial | Strong | Partial | Weak | Unknown | Partial | Partial | Partial | Strong |
+| [GitBook](../solutions/gitbook.md) | Partial | Weak | Partial | Partial | Partial | Strong | Unknown | Partial | Weak | Partial | Strong |
+| [Tettra](../solutions/tettra.md) | Partial | Weak | Partial | Strong | Partial | Weak | Unknown | Partial | Partial | Partial | Strong |
 | [Document360](../solutions/document360.md) | Partial | Weak | Strong | Strong | Strong | Partial | Partial | Strong | Partial | Strong | Partial |
-| [Slite](../solutions/slite.md) | Weak | Strong | Partial | Strong | Strong | Strong | Partial | Partial | Partial | Strong | Strong |
+| [Slite](../solutions/slite.md) | Partial | Strong | Partial | Strong | Strong | Strong | Partial | Partial | Partial | Strong | Strong |
 
 ## Agent Memory / Context Layers for Orgs
 
 | Solution | Deploy | Capture | Organize | Evolve | Retrieve | Activate | Evidence | Scope | Feedback | Privacy | Setup |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| [Hebbia](../solutions/hebbia.md) | Partial | Strong | Weak | Weak | Strong | Weak | Partial | Weak | Weak | Strong | Weak |
+| [Hebbia](../solutions/hebbia.md) | Partial | Strong | Unknown | Unknown | Strong | Unknown | Partial | Weak | Unknown | Strong | Weak |
 | [Cognee](../solutions/cognee.md) | Strong | Partial | Strong | Partial | Strong | Strong | Unknown | Partial | Weak | Partial | Partial |
 | [Zep / Graphiti](../solutions/zep-graphiti.md) | Strong | Weak | Strong | Strong | Strong | Strong | Partial | Partial | Weak | Strong | Partial |
-| [Hjarni](../solutions/hjarni.md) | Weak | Weak | Partial | Weak | Partial | Strong | Weak | Partial | Weak | Weak | Strong |
+| [Hjarni](../solutions/hjarni.md) | Partial | Weak | Partial | Unknown | Partial | Strong | Unknown | Partial | Unknown | Weak | Strong |
 | [Hyper](../solutions/hyper.md) | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
 | [Memory Store](../solutions/memory-store.md) | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
 | [Wato](../solutions/wato.md) | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
@@ -40,12 +40,12 @@ Columns (abbreviated — see [Capability Definitions](../capabilities/README.md)
 | [Outline](../solutions/outline.md) | Strong | Weak | Strong | Partial | Partial | Partial | Unknown | Strong | Partial | Partial | Weak |
 | [Docmost](../solutions/docmost.md) | Strong | Weak | Strong | Partial | Partial | Partial | Partial | Partial | Partial | Partial | Partial |
 | [BookStack](../solutions/bookstack.md) | Strong | Weak | Strong | Partial | Weak | Weak | Unknown | Strong | Partial | Strong | Strong |
-| [AnythingLLM](../solutions/anythingllm.md) | Strong | Partial | Partial | Weak | Strong | Strong | Partial | Weak | Weak | Weak | Strong |
-| [RAGFlow](../solutions/ragflow.md) | Partial | Strong | Partial | Weak | Strong | Strong | Strong | Weak | Weak | Weak | Weak |
+| [AnythingLLM](../solutions/anythingllm.md) | Strong | Partial | Partial | Unknown | Strong | Strong | Partial | Weak | Unknown | Weak | Strong |
+| [RAGFlow](../solutions/ragflow.md) | Partial | Strong | Partial | Unknown | Strong | Strong | Strong | Unknown | Unknown | Weak | Weak |
 | [Quivr](../solutions/quivr.md) | Weak | Weak | Unknown | Unknown | Partial | Unknown | Unknown | Weak | Unknown | Weak | Partial |
-| [GBrain](../solutions/gbrain.md) | Partial | Weak | Strong | Partial | Strong | Strong | Partial | Partial | Weak | Weak | Partial |
-| [Pad](../solutions/pad.md) | Strong | Weak | Partial | Weak | Weak | Strong | Unknown | Strong | Weak | Partial | Partial |
-| [OpenViking](../solutions/openviking.md) | Strong | Partial | Strong | Partial | Strong | Strong | Strong | Weak | Weak | Partial | Strong |
+| [GBrain](../solutions/gbrain.md) | Partial | Weak | Strong | Partial | Strong | Strong | Partial | Partial | Unknown | Weak | Partial |
+| [Pad](../solutions/pad.md) | Strong | Weak | Partial | Unknown | Weak | Strong | Unknown | Strong | Unknown | Partial | Partial |
+| [OpenViking](../solutions/openviking.md) | Strong | Partial | Strong | Partial | Strong | Strong | Strong | Weak | Unknown | Partial | Strong |
 
 ## Platform Baselines
 
