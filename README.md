@@ -107,7 +107,10 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 | Page | Use it for |
 |---|---|
 | [Chooser](comparisons/chooser.md) | Pick a starting solution by lifecycle gap, with more reasoning than the summary table above. |
-| [Capability Definitions](capabilities/README.md) | Understand the ten evaluation dimensions behind every solution profile. |
+| [Capability Matrix](comparisons/capability-matrix.md) | See all 31 solutions rated across all eleven evaluation dimensions at a glance. |
+| [Setup Burden](comparisons/setup-burden.md) | Group solutions by how much friction stands between you and a working instance — self-serve, sales-assisted, or DIY self-hosted. |
+| [Personal vs. Team](comparisons/personal-vs-team.md) | See which solutions are finished team products vs. infra/building-blocks you'd still need to build a surface for. |
+| [Capability Definitions](capabilities/README.md) | Understand the eleven evaluation dimensions behind every solution profile. |
 | [Watchlist](watchlist.md) | Track promising solutions that are not yet fully evaluated. |
 | [External Resources](resources.md) | Essays, talks, and YC context on where the "company brain" category came from — including a claim we could not verify, flagged as such. |
 
