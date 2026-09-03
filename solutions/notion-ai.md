@@ -76,4 +76,4 @@ Notion AI trades depth of dedicated knowledge-governance features (verification 
 - [Notion Security & Compliance](https://www.notion.com/security)
 - [Notion AI Security & Privacy Practices](https://www.notion.com/help/notion-ai-security-practices)
 - [MCP Connections for Notion Custom Agents](https://www.notion.com/help/mcp-connections-for-custom-agents)
-- [Notion (productivity software) — Wikipedia, for company founding/HQ facts](https://en.wikipedia.org/wiki/Notion_(productivity_software))
+- [Notion (productivity software) — Wikipedia, for company founding/HQ facts](https://en.wikipedia.org/wiki/Notion_%28productivity_software%29)

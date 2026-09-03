@@ -4,6 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Last commit](https://img.shields.io/github/last-commit/gurusup/awesome-company-brain)](https://github.com/gurusup/awesome-company-brain/commits/main)
 
 > Give every AI agent your company context.
 
@@ -18,13 +19,8 @@ A curated comparison of company-brain, enterprise-knowledge, and agent-memory-fo
 - [Company-Brain Lifecycle](#company-brain-lifecycle)
 - [Choose by Lifecycle Gap](#choose-by-lifecycle-gap)
 - [Solution Snapshot](#solution-snapshot)
-  - [Enterprise Knowledge Platforms](#enterprise-knowledge-platforms)
-  - [Agent Memory / Context Layers for Orgs](#agent-memory--context-layers-for-orgs)
-  - [Open Source / Self-Hosted](#open-source--self-hosted)
-  - [Platform Baselines](#platform-baselines)
 - [Deep Dives](#deep-dives)
 - [Related Lists](#related-lists)
-- [Sources](#sources)
 
 ## Company-Brain Lifecycle
 
@@ -124,10 +120,6 @@ This snapshot groups each system by the kind of solution you are adopting. See e
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — curated list of Claude Skills, resources, and tools for customizing Claude AI workflows.
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curated Claude Code resources, including a section on Obsidian and memory/second-brain tooling for individual developers.
 
-## Sources
-
-Core claims should be backed by official documentation, official repositories, or verified hands-on use. This repo should point to official docs instead of duplicating step-by-step setup instructions. Fields not yet verified are marked `Unknown` rather than guessed.
-
 ## How To Contribute
 
 1. Pick the smallest contribution type that fits your evidence: a new solution profile, an update to an existing one, a comparison page, or a watchlist entry.
@@ -136,4 +128,10 @@ Core claims should be backed by official documentation, official repositories, o
 4. Link new or updated core solution profiles from [solutions/README.md](solutions/README.md) and [comparisons/chooser.md](comparisons/chooser.md) so readers can find them through the main decision paths.
 5. Open a PR with sources, verification notes, and any known limitations.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guidelines and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards.
+
+## Footnotes
+
+- **Sourcing policy:** core claims should be backed by official documentation, official repositories, or verified hands-on use. This repo should point to official docs instead of duplicating step-by-step setup instructions. Fields not yet verified are marked `Unknown` rather than guessed.
+- **"Last commit" vs. "Last reviewed":** the badge at the top of this README reflects the last Git commit to the repo — a cheap freshness signal, but it can move on an unrelated typo fix. Each [solution profile](solutions/README.md)'s own `Last reviewed` date is the one that matters for whether that specific page's claims were re-checked against primary sources.
+- **UTM parameters on GuruSup links:** links to gurusup.com in this repo carry UTM tracking parameters. This is disclosed here for transparency, consistent with the conflict-of-interest disclosure above — the tracking doesn't change any rating or comparison.

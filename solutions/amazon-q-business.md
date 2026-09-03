@@ -15,6 +15,9 @@
 
 Amazon Q Business is AWS's fully managed enterprise generative-AI assistant that indexes content from 40+ connected data sources and answers natural-language questions with citations while respecting source-system permissions — now closed to new customers and being superseded by Amazon Quick.
 
+> [!WARNING]
+> Closed to new customers as of 2026. AWS is directing prospective and existing customers to its successor, "Amazon Quick." Do not start a new evaluation here — see [Tradeoffs](#tradeoffs) below.
+
 ## Company-Brain Fit
 
 Amazon Q Business's context is scoped to an AWS-managed index built from connected data sources inside the customer's own AWS account/region — an AWS-ecosystem-centric baseline, though it reaches many non-AWS SaaS sources via connectors. Collect: 40+ built-in connectors (S3, SharePoint, Confluence, Salesforce, ServiceNow, Slack, Jira, Google Drive, Gmail, Zendesk, GitHub, and more) plus a custom-connector API and a web crawler. Organize: automatic content indexing and metadata extraction on ingest, with document-level ACLs crawled from source systems and enabled by default. Evolve: per-connector sync schedules (full or incremental) configurable via console or API — no separate "review cycle" concept. Use: a chat interface with citations, "Q Apps" for building lightweight no-code AI apps, and plugins/actions that can act in connected third-party systems, with chat orchestration auto-routing requests across data sources and plugins. Govern: IAM Identity Center-based identity, permissions-aware responses that respect source-system access controls, and admin guardrails (blocked phrases, response-scope restriction). Because deployment, identity, and the index all live inside a single AWS account/region, it is best understood as an AWS-native layer over an organization's content rather than a cloud-agnostic company brain — and, as of this review, it is a legacy product being wound down in favor of Amazon Quick.
