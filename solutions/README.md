@@ -8,6 +8,7 @@ The **Open source** and **Deployment** columns below are orthogonal tags, not a 
 
 | Solution | Open source | Deployment |
 |---|---|---|
+| [Hoppflow](hoppflow.md) | No | Not assessed |
 | [GuruSup Company Brain](gurusup-company-brain.md) 🔹 Recommended | No | Cloud SaaS |
 | [Glean](glean.md) | No | Cloud SaaS (bespoke customer-hosted tenant for some large accounts) |
 | [Guru](guru.md) | No | Cloud SaaS |
